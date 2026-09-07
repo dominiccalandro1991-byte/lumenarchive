@@ -349,8 +349,6 @@ export const ActivityEventSchema = z.object({
   user_agent: z.string().optional(),
   status: z.enum(['success', 'failure']).default('success'),
   error_message: z.string().max(1000).optional(),
-  status: statusSchema.default('draft'),
-  owner_id: uuidSchema,
   created_at: dateSchema,
   updated_at: dateSchema,
   provenance: z.object({
