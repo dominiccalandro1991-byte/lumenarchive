@@ -1,0 +1,35 @@
+{
+  "repo": "dominiccalandro1991-byte/lumenarchive",
+  "incomplete": false,
+  "missing_dependencies": [],
+  "required_build_specs": [
+    "voltcore-heartbeat workflow"
+  ],
+  "file_count": 24,
+  "root_entries": [
+    ".gitignore",
+    "ACCESSIBILITY.md",
+    "ARCHITECTURE.md",
+    "DATA_MODEL.md",
+    "DECISIONS.md",
+    "DESIGN_SYSTEM.md",
+    "INTERFACE_REINVENTION.md",
+    "PROJECT_STATUS.md",
+    "README.md",
+    "ROUTES.md",
+    "SECURITY_PRIVACY.md",
+    "TEST_PLAN.md",
+    "TRANSFORMATION_ROADMAP.md",
+    "app",
+    "components.json",
+    "components",
+    "lib",
+    "next.config.mjs",
+    "package.json",
+    "pnpm-lock.yaml",
+    "pnpm-workspace.yaml",
+    "postcss.config.mjs",
+    "public",
+    "tsconfig.json"
+  ]
+}
